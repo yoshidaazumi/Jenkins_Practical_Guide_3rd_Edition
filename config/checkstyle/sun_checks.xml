@@ -147,7 +147,8 @@
         <module name="AvoidInlineConditionals"/>
         <module name="EmptyStatement"/>
         <module name="EqualsHashCode"/>
-        <module name="HiddenField"/>
+        <!--<module name="HiddenField"/>                     -->
+        <module name="HiddenField">
               <property name="tokens" value="VARIABLE_DEF"/>
           </module>
         <module name="IllegalInstantiation"/>
